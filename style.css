@@ -1,0 +1,25 @@
+h3 
+{ 
+    font-size: 25px !important; 
+    
+} 
+.btn-success:hover 
+{  
+    background-color:red;
+}  
+@keyframes canvas_anime 
+{ 
+    from{box-shadow: 7px 7px 40px green;} 
+    to {box-shadow: 7px 7px 40px yellow;} 
+}
+
+canvas 
+{  
+    background-color: aliceblue;
+animation-name:canvas_anime; 
+animation-duration:9s; 
+animation-iteration-count: infinite;
+} 
+rect{ 
+    background-color: green;
+} 
